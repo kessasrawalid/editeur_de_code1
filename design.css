@@ -1,0 +1,73 @@
+#image{
+    width: 60px; /* Ajustez la largeur et la hauteur selon vos besoins */
+    height: 60px;
+    border-radius: 50%; /* Utilisez 50% pour créer un cercle */
+    display: block; /* Pour centrer horizontalement l'image */
+    margin: 0 auto; /* Pour centrer horizontalement l'image */
+    float: left;
+    display: flex;
+
+
+}
+#titrenav{
+margin: auto;
+font-size:x-large;
+display: flex;
+justify-content: center;
+font-weight: bold;
+
+
+}
+#texte{
+width: 90%;
+height: 200px;
+border-radius: 30px;
+border: 3px solid rgb(112, 23, 23);
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+#play{
+
+    height: 50px;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 30px;
+}
+#delete{
+    height: 50px;
+    border-radius: 30px;
+    width: 30%;
+}
+
+#resultat{
+
+width: 90%;
+height: 200px;
+border-radius: 30px;
+border: 3px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: aquamarine;
+}
+
+#resultattitre{
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+.navbar {
+    background-color: antiquewhite;
+}
+#buttons{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
